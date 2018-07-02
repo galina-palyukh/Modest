@@ -1,0 +1,30 @@
+
+@import 'hero.css';
+@import 'header.css';
+@import 'about.css';
+@import 'team.css';
+@import "contacts.css";
+@import "features.css";
+@import "work.css";
+
+
+.inverse-heading{
+    color: #292f36;
+}
+.inverse-heading-border{
+    border-left: 10px solid #e1e6ea;
+    padding-left: 12px;
+    margin-bottom: 40px;
+}
+
+.heading-border{
+    border-left: 10px solid #e1e6ea;
+    padding-left: 12px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991px){
+    h1{
+        font-size: 30px;
+    }
+}

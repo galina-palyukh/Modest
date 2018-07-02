@@ -1,0 +1,61 @@
+
+.about {
+
+    border-bottom: 1px solid var(--global-border);
+}
+
+.item-goal h3 {
+    margin: 0;
+}
+
+.item-goal p {
+    margin: 0;
+
+}
+
+.item-goal:nth-child(1) {
+    margin-right: 20px;
+}
+
+.card-goal {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.social-list-mission {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-list-mission a {
+    width: 60px;
+    height: 60px;
+    background-color: #c8cdd0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.social-list-mission a:hover {
+    background-color: #d0d5d9;
+}
+
+.social-list-mission a span[class^="icon-"] {
+    font-size: 25px;
+    color: #fff;
+}
+
+.number-goal {
+    width: 50px;
+    height: 50px;
+    background-color: var(--global-success-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+

@@ -1,0 +1,89 @@
+.hero {
+    position: relative;
+    padding: 215px 0 35px 0;
+
+}
+
+
+.hero-foreground {
+    position: relative;
+}
+
+.hero-background {
+    background-image: url("../../images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: 50% 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.slider-actions .button:nth-child(1){
+    margin-right: 10px;
+}
+
+.slider-dots{
+    display: flex;
+    margin-top: 200px;
+}
+.slider-dots a{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.slider-dots a:last-child{
+    margin-right: 0;
+}
+
+
+.slider-dots a.is-active,
+.slider-dots a:active,
+.slider-dots a:focus,
+.slider-dots a:hover{
+    background-color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .hero {
+        padding: 160px 0 35px 0;
+    }
+
+    .slider-dots{
+        display: flex;
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width: 991px) {
+
+    .hero {
+        padding: 140px 0 35px 0;
+    }
+
+    .slider-dots{
+        display: flex;
+        margin-top: 110px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .hero {
+        padding: 90px 0 35px 0;
+    }
+
+    .slider-dots{
+        display: flex;
+        margin-top: 50px;
+    }
+}

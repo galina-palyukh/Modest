@@ -1,0 +1,9 @@
+.layout-slider .layout-item:nth-child(1){
+    max-width: 660px;
+}
+
+.layout-slider .layout-item:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,32 @@
+
+.layout-about {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.layout-about .layout-item:nth-child(1){
+   max-width: 60%;
+    margin-right: 20px;
+}
+
+.layout-about .layout-item:nth-child(2){
+    max-width: 40%;
+}
+
+@media screen and (max-width: 991px){
+    .layout-about {
+       flex-direction: column;
+    }
+    .layout-about .layout-item:nth-child(1),
+    .layout-about .layout-item:nth-child(2){
+        max-width: 100%;
+    }
+    .layout-about .layout-item:nth-child(1){
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+
+}

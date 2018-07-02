@@ -1,0 +1,37 @@
+
+.grid-team {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+
+.card-body {
+    position: relative;
+}
+
+/*.grid-team .grid-item:hover .card-body-overlay{*/
+/*opacity: 0.4;*/
+/*}*/
+.grid-team .card-footer {
+    background-color: #e1e6ea;
+    padding: 20px 15px;
+}
+
+.grid-team h4,
+.grid-team p {
+    margin: 0;
+}
+
+/*.card-body-overlay {*/
+/*position: absolute;*/
+/*background-color: #fff;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*top: 0;*/
+/*left: 0;*/
+/*opacity: 0;*/
+/*}*/
+.social-list-team {
+    display: none;
+}
